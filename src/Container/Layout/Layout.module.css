@@ -1,5 +1,5 @@
 .Layout{
-    height: 100% !important;
+    height: 100vh !important;
     display: flex;
 }
 
@@ -9,4 +9,5 @@
 
 .Layout .Mainpage{
     flex: 7;
+    height: 100%;
 }
