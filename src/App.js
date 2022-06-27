@@ -1,10 +1,11 @@
-import Layout from './Container/Layout/Layout';
+import Sidebar from "./Components/Sidebar/Sidebar"
 import './App.css';
 
 function App() {
   return (
     <>
-    <Layout />
+    <h1>Helllo</h1>
+    <Sidebar />
     </>
   );
 }
