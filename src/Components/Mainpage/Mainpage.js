@@ -4,10 +4,10 @@ import LoginForm from "./LoginForm/LoginForm";
 import Footer from "../Footer/Footer";
 function Mainpage() {
   return (
-    <div className={classes.Mainpage}>
-      <div className={classes.Content}>
+    <div >
+      <div>
         <h2>Attendance System</h2>
-        <div className={classes.Forms}>
+        <div>
           <LoginForm />
         </div>
       </div>
