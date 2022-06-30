@@ -1,12 +1,16 @@
-import Sidebar from "./Components/Sidebar/Sidebar"
-import './App.css';
+import Sidebar from "./Components/Sidebar/Sidebar";
+import "./App.css";
+import Mainpage from "./Components/Mainpage/Mainpage";
 
 function App() {
   return (
-    <>
-    <h1>Helllo</h1>
-    <Sidebar />
-    </>
+    <div className="h-screen w-screen flex">
+      <div className="hidden lg:inline-flex w-1/4">
+        <Sidebar />
+      </div>
+
+      <Mainpage />
+    </div>
   );
 }
 
