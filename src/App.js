@@ -1,6 +1,12 @@
 import Sidebar from "./Components/Sidebar/Sidebar";
 import "./App.css";
 import Mainpage from "./Components/Mainpage/Mainpage";
+import axios from "axios";
+
+
+// Axios config baseurl
+
+axios.defaults.baseURL=process.env.REACT_APP_BASEURL
 
 function App() {
   return (
