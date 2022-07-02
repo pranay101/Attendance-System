@@ -23,6 +23,30 @@ code {
 
 @layer components{
   .input-fields {
-    @apply py-1.5 w-1/2 focus:outline-none border border-[#5e6be0] rounded-sm mb-3
+    @apply py-1.5 w-1/2 px-2 focus:outline-none border border-[#5e6be0] rounded-sm mb-3
+
+  }
+  .bg-light{
+    @apply bg-[#e1dfdc35];
+  }
+  .text-dark {
+    @apply text-[#291a1a] ;
+  }
+  .bg-dark {
+    @apply bg-[#291a1a] ;
+  }
+  .text-medium {
+    @apply text-[#8C4C27];
+  }
+  .bg-medium-dark {
+    @apply bg-[#D9CDBF];
+  }
+  .text-light {
+    @apply text-[#f5f2ee];
+  }
+  .btn {
+    @apply bg-dark text-light py-2 px-4 my-2 rounded-sm text-sm border border-transparent font-medium hover:bg-transparent hover:text-dark hover:border-[#291a1a];
   }
 }
+
+
