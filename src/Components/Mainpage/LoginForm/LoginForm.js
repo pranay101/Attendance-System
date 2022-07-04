@@ -20,7 +20,8 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="border-2 w-1/3 mx-auto ">
+    <div className=" bg-light border-2 w-5/12 mx-auto shadow-lg">
+    
       <div className="flex justify-evenly">
         <button
           className="bg-dark text-light w-full h-full p-1.5 mr-1"
@@ -37,7 +38,7 @@ const LoginForm = () => {
       </div>
       
       <form
-        className="mt-5 flex flex-col items-center px-5 justify-items-start"
+        className="mt-5 flex flex-col items-center px-5 justify-items-start py-3 "
         action=""
         method="post"
       >
