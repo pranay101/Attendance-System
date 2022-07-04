@@ -11,7 +11,7 @@ axios.defaults.baseURL=process.env.REACT_APP_BASEURL
 function App() {
   return (
     <div className="h-screen w-screen flex">
-      <div className="hidden lg:inline-flex w-1/4">
+      <div className="hidden lg:inline-flex w-5/12">
         <Sidebar />
       </div>
 

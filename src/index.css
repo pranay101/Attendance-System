@@ -27,16 +27,16 @@ code {
 
   }
   .bg-light{
-    @apply bg-[#e1dfdc35];
+    @apply bg-[#13668a0c];
   }
   .text-dark {
-    @apply text-[#291a1a] ;
+    @apply text-[#13678A] ;
   }
   .bg-dark {
-    @apply bg-[#291a1a] ;
+    @apply bg-[#13678A] ;
   }
   .text-medium {
-    @apply text-[#8C4C27];
+    @apply text-[#7c89ab];
   }
   .bg-medium-dark {
     @apply bg-[#D9CDBF];
