@@ -20,7 +20,7 @@ const LoginForm = () => {
   };
 
   return (
-    <div className=" bg-light border-2 w-5/12 mx-auto shadow-lg">
+    <div className="w-full bg-light border-2 lg:w-5/12 mx-auto shadow-lg px-5 lg:px-0">
     
       <div className="flex justify-evenly">
         <button
