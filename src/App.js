@@ -5,7 +5,8 @@ import {Route,Routes} from "react-router-dom"
 
 // containers
 import Homepage from "./Containers/HomePage/Homepage"
-import Dashboard from "./Containers/Dashboard/Dashboard"
+import StudentDashboard from "./Containers/Dashboard/StudentDashboard"
+
 
 
 // Axios config baseurl
@@ -15,8 +16,8 @@ function App() {
   return (
     <div className="h-screen w-screen flex">
       <Routes >
-        <Route path="/dashboard"  element={<Dashboard/>}/>
         <Route path="/"  element={<Homepage/>}/>
+        <Route path="/dashboard"  element={<StudentDashboard/>}/>
       </Routes>
     </div>
   );
