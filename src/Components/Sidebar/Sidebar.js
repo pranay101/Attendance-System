@@ -40,6 +40,7 @@ const Sidebar = () => {
     "https://images.unsplash.com/photo-1522715145221-9e31275272eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
     "https://images.unsplash.com/photo-1587653117999-e9b55f7e5de0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "https://images.unsplash.com/photo-1559287316-e73b74a6ceca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+    "https://images.unsplash.com/photo-1617140952698-08a287842fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
   ];
   return (
     <div className="w-full h-full overflow-hidden ">
