@@ -1,21 +1,23 @@
-import Sidebar from "./Components/Sidebar/Sidebar";
+// packages
 import "./App.css";
-import Mainpage from "./Components/Mainpage/Mainpage";
 import axios from "axios";
+import {Route,Routes} from "react-router-dom"
+
+// containers
+import Homepage from "./Containers/HomePage/Homepage"
+import Dashboard from "./Containers/Dashboard/Dashboard"
 
 
 // Axios config baseurl
-
-axios.defaults.baseURL=process.env.REACT_APP_BASEURL
+axios.defaults.baseURL = process.env.REACT_APP_BASEURL;
 
 function App() {
   return (
     <div className="h-screen w-screen flex">
-      <div className="hidden lg:inline-flex w-5/12">
-        <Sidebar />
-      </div>
-
-      <Mainpage />
+      <Routes >
+        <Route path="/dashboard"  element={<Dashboard/>}/>
+        <Route path="/"  element={<Homepage/>}/>
+      </Routes>
     </div>
   );
 }
