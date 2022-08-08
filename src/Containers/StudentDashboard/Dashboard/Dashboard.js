@@ -1,7 +1,12 @@
 import React from "react";
-import Graph from "../Graph/Graph";
+import {LineChart} from "../../../Components/Graph/Graph";
+import {user as userAtom} from "../../../RecoilConfig";
+import {useRecoilValue} from "recoil";
 
-const Dashboard = ({user}) => {
+const Dashboard = () => {
+
+  const user = useRecoilValue(userAtom);
+  console.log(user);
   return (
     <div>
       <div className="mt-10 lg:ml-5 px-5">
@@ -11,7 +16,7 @@ const Dashboard = ({user}) => {
         </h3>
       </div>
       <div className="w-full lg:w-2/3 mx-auto mt-5">
-        <Graph />
+        <LineChart />
       </div>
     </div>
   );
